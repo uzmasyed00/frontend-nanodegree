@@ -1,0 +1,77 @@
+
+
+.grid {
+    margin: 0 auto;
+    max-width: 930px;
+    width: 100%;
+}
+
+.firstRow {
+    display:flex;
+}
+
+.heading-col-2 {
+    margin-left:575px; 
+    color:#BCBBBB
+}
+
+
+.col-1 {
+    margin-left : 0px;
+    margin-top : 15px;
+    margin-right: 15px;
+}
+
+.col-2 {
+    margin-top : 15px;
+    margin-right: 15px;
+}
+
+.col-3 {
+    margin-top : 15px;
+}
+
+.heading-col-2 {
+    margin-left:597px; 
+    color:#BCBBBB
+}
+
+.heading-row-2 {
+    margin-left: 90px;
+}
+
+.column-heading {
+    display:flex;
+    width:900px;
+}
+
+
+.featuredWork {
+    color:#BCBBBB
+}
+
+.row-projects {
+    display:flex;
+}
+
+.projectName {
+    text-align: center;
+    color:#747704
+}
+hr {
+  border: 0;
+
+  color: #BCBBBB;
+  background-color: #BCBBBB;
+  height: 3px;
+}
+
+.front-end {
+    margin-left:790px;
+    color:gray;  
+}
+
+
+h2 {
+    color: red;
+}
