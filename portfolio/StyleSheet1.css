@@ -2,13 +2,13 @@
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 930px;
     width: 100%;
 }
 
-.row {
+.first-row {
     display:flex;
-    width:1200px;   
+    /*width:1200px;  */
 }
 .col-1 {
     margin-left : 0px;
@@ -25,33 +25,36 @@
     margin-top : 15px;
 }
 
-.heading {
-    margin-left:700px;
-    
+.column-logo{
+    width:75%;
+}
+.column-heading {
+    width:25%;
+    color:#BCBBBB;
 }
 
-.column-heading {
-    width:1200px;
+.row-projects{
     display:flex;
+}
+
+.featuredWork{
+    color:#BCBBBB;
 }
 
 hr {
   border: 0;
-  color: lightgray;
-  background-color: lightgray;
+  background-color: #BCBBBB;
   height: 3px;
 }
 
-.front-end {
-    margin-left:790px;
-    color:gray;  
+@media screen and (max-width: 700px){
+    .column-logo{
+        width:100%;
+    }
+
+    .column-heading{
+        width:100%;
+    }
 }
 
 
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: red;
-}
