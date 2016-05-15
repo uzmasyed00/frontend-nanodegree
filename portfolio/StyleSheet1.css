@@ -10,6 +10,10 @@
     display:flex;
     /*width:1200px;  */
 }
+
+.middle{
+    width:100%;
+}
 .col-1 {
    /* margin-left : 0px;
     margin-top : 15px;
@@ -54,7 +58,7 @@ hr {
   height: 3px;
 }
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 931px){
     .column-logo{
         width:100%;
     }
@@ -62,7 +66,32 @@ hr {
     .column-heading{
         width:100%;
     }
+
+    .middle{
+        width:100%;
+    }
+
+
 }
+
+@media screen and (min-width: 961px){
+    .col-1{
+        width:100%
+    }
+
+    .col-2{
+        width:100%
+    }
+
+    .col-3{
+        width:100%
+    }
+
+    .col-blank{
+        width: 100%;
+    }
+}
+
 
 
 
