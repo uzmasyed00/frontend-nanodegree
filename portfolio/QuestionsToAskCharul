@@ -1,0 +1,5 @@
+Should I use min-width or max-width?
+In the lectures, I saw instructor having div containers and then using min-width and changing the percentages.I tried doing the same
+but its not responsive on all devices. i used min-width as 200 px coz smallest width of all devices was 300 px.
+
+Why is "te" in doette getting cropped out?
