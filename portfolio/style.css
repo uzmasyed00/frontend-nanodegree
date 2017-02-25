@@ -1,0 +1,69 @@
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.first-row {
+    display:flex;
+}
+
+.row-projects{
+    width:100%;
+    display:flex;
+}
+
+.column-logo{
+    width:75%
+}
+
+.column-heading{
+    width:25%
+}
+
+.row-heading{
+    width:100%;
+    color:blue;
+    text-align: right;
+}
+
+.row-front-end{
+    color:red;
+    text-align: right;
+}
+
+.col-blank{
+    width :5%;
+}
+
+hr {
+  border: 0;
+  background-color: #BCBBBB;
+  height: 3px;
+}
+
+#appify{
+   text-align: center;
+}
+
+#sunflower{
+    text-align: center;
+}
+
+#bokeh{
+    text-align: center;
+}
+
+#github_appify{
+   text-align: center;
+}
+
+#github_sunflower{
+    text-align: center;
+}
+
+#github_bokeh{
+    text-align: center;
+}
+
+
